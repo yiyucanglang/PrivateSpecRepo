@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SummaryResources.bundle','ZYJPrivateSpec/Classes/**/*'
-  
+  s.source_files = 'ZYJPrivateSpec/Classes/**/*'
+
+  s.resources = 'SummaryResources.bundle','ZYJPrivateSpec/Assets/**/*.*'
   s.resource_bundles = {
     'MyFirstPrivateSpec' => ['ZYJPrivateSpec/Assets/*.png']
   }
