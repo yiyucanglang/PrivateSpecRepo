@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZYJPrivateSpec/Classes/**/*'
 
-  s.resources = 'ZYJPrivateSpec/Assets/SummaryResources.bundle'
+  s.resources = 'SummaryResources.bundle'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
