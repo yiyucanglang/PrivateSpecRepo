@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZYJPrivateSpec/Classes/**/*'
-  s.resources    = 'ZYJPrivateSpec/Assets/**/*'
-  #s.resource_bundles = {
-  #  'MyFirstPrivateSpec' => ['ZYJPrivateSpec/Assets/*.png']
-  #}
+  
+  s.resource_bundles = {
+    'MyFirstPrivateSpec' => ['ZYJPrivateSpec/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
